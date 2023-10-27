@@ -1,0 +1,9 @@
+/Users/cipi/documents/AN-4/paoo/project/build/CMakeFiles/exec.dir
+/Users/cipi/documents/AN-4/paoo/project/build/CMakeFiles/edit_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/CMakeFiles/rebuild_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/User_lib/CMakeFiles/myUser.dir
+/Users/cipi/documents/AN-4/paoo/project/build/User_lib/CMakeFiles/edit_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/User_lib/CMakeFiles/rebuild_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/IDCard_lib/CMakeFiles/myIDCard.dir
+/Users/cipi/documents/AN-4/paoo/project/build/IDCard_lib/CMakeFiles/edit_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/IDCard_lib/CMakeFiles/rebuild_cache.dir

@@ -11,7 +11,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.23.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.23.2/CMakeSystem.cmake"
   "/Users/cipi/documents/AN-4/paoo/project/src/CMakeLists.txt"
+  "/Users/cipi/documents/AN-4/paoo/project/src/Circle_lib/CMakeLists.txt"
   "/Users/cipi/documents/AN-4/paoo/project/src/IDCard_lib/CMakeLists.txt"
+  "/Users/cipi/documents/AN-4/paoo/project/src/Rectangle_lib/CMakeLists.txt"
+  "/Users/cipi/documents/AN-4/paoo/project/src/Shape_lib/CMakeLists.txt"
+  "/Users/cipi/documents/AN-4/paoo/project/src/Square_lib/CMakeLists.txt"
   "/Users/cipi/documents/AN-4/paoo/project/src/User_lib/CMakeLists.txt"
   "/usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -47,6 +51,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "User_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "IDCard_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Shape_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Circle_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Rectangle_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Square_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -54,4 +62,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/exec.dir/DependInfo.cmake"
   "User_lib/CMakeFiles/myUser.dir/DependInfo.cmake"
   "IDCard_lib/CMakeFiles/myIDCard.dir/DependInfo.cmake"
+  "Shape_lib/CMakeFiles/myShape.dir/DependInfo.cmake"
+  "Circle_lib/CMakeFiles/myCircle.dir/DependInfo.cmake"
+  "Rectangle_lib/CMakeFiles/myRectangle.dir/DependInfo.cmake"
+  "Square_lib/CMakeFiles/mySquare.dir/DependInfo.cmake"
   )

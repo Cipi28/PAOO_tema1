@@ -2,43 +2,58 @@
 #include <string>
 #include "User.h"
 #include "IDCard.h"
+#include "Circle.h"
+#include "Rectangle.h"
+#include "Square.h"
+
 using namespace std;
 
+void dealUsers() {
+     User u1("cipi", "123"); 
+     User u2 = u1;  
+
+     u2.setUsername("ana");
+     u2.setPassword("999");
+
+     User u3("cip2", "444");     
+     User u4(std::move(u3));
+}
 
 int main() {
 
-    User u1("cipi", "123"); 
-    User u2 = u1;  
 
-    u2.setUsername("ana");
-    u2.setPassword("999");
+    Cr::Circle cir1(5);
+    Rectang::Rectangle rec1(5, 6);
+    Rectang::Rectangle rec2(1, 1);
+    SQ::Square sq1(5);
 
-    User u3("cip2", "444");     
-    User u4(std::move(u3));
+    Cr::Circle cir2;
+    cir2 = cir1;
 
-    int* cnp1 = new int;
-    int* cnp2 = new int;
-    *cnp1 = 101010;
-    *cnp2 = 222222;
-    
-    
-    IDCard c1(cnp1, "02.28.2002"); 
-    IDCard c2 = c1; 
+    Rectang::Rectangle rec3;
+    rec3 = rec1 + rec2;
 
-    c2.setCnp(cnp2);
-    c2.setBirthDate("03.03.2003");
+
+
  
     cout << "-----------------------------------"<<endl
-         << "user1: "<<endl << u1.getUsername() <<endl << u1.getPassword() <<endl
+         << "CIRCLE1:"<<endl
+         << cir1.getArea()<<endl
          << "-----------------------------------"<<endl
-         << "user2: "<<endl << u2.getUsername() <<endl << u2.getPassword() <<endl
+         << "CIRCLE2:"<<endl
+         << cir2.getArea()<<endl
          << "-----------------------------------"<<endl
-         << "user3: "<<endl << u3.getUsername() <<endl << u3.getPassword() <<endl
+         << "REC1:"<<endl
+         << rec1.getArea()<<endl
          << "-----------------------------------"<<endl
-         << "user4: "<<endl << u4.getUsername() <<endl << u4.getPassword() <<endl
+         << "REC3:"<<endl
+         << rec3.getArea()<<endl
          << "-----------------------------------"<<endl
-         << "IDCard1: "<<endl << c1.getCnp() <<endl << c1.getBirthDate() <<endl
-         << "-----------------------------------"<<endl
-         << "IDCard2: "<<endl << c1.getCnp() <<endl << c1.getBirthDate() <<endl
+         << "SQUARE1:"<<endl
+         << sq1.getArea()<<endl
+         << "-----------------------------------"<<endl;
+    sq1.setWidth(10);
+    cout << "SQUARE1:"<<endl
+    << sq1.getArea()<<endl
          << "-----------------------------------"<<endl;
 }

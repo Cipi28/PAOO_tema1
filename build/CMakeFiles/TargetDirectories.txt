@@ -7,3 +7,15 @@
 /Users/cipi/documents/AN-4/paoo/project/build/IDCard_lib/CMakeFiles/myIDCard.dir
 /Users/cipi/documents/AN-4/paoo/project/build/IDCard_lib/CMakeFiles/edit_cache.dir
 /Users/cipi/documents/AN-4/paoo/project/build/IDCard_lib/CMakeFiles/rebuild_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Shape_lib/CMakeFiles/myShape.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Shape_lib/CMakeFiles/edit_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Shape_lib/CMakeFiles/rebuild_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Circle_lib/CMakeFiles/myCircle.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Circle_lib/CMakeFiles/edit_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Circle_lib/CMakeFiles/rebuild_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Rectangle_lib/CMakeFiles/myRectangle.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Rectangle_lib/CMakeFiles/edit_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Rectangle_lib/CMakeFiles/rebuild_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Square_lib/CMakeFiles/mySquare.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Square_lib/CMakeFiles/edit_cache.dir
+/Users/cipi/documents/AN-4/paoo/project/build/Square_lib/CMakeFiles/rebuild_cache.dir

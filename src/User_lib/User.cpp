@@ -17,7 +17,6 @@ User::User(char* username, char* password)
 // copy constructor
 User::User(const User& u) {
     this->username = static_cast<char*>(malloc(strlen(u.username) + 1));
-    // todo: memcpy(this->username, username, strlen(username) + 1);
     strcpy(this->username, u.username);
     this->password = static_cast<char*>(malloc(strlen(u.password) + 1));
     strcpy(this->password, u.password);
@@ -37,13 +36,8 @@ User::User(User&& u) {
 
 //destructor
 User::~User() {
-    if(this->username == nullptr) {
         free(this->username);
-    }
-    
-    if(this->password == nullptr) {
         free(this->password);
-    }
     cout<<"User destruciton"<<endl;
 }
 

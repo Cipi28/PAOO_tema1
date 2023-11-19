@@ -94,6 +94,10 @@ exec: CMakeFiles/exec.dir/main.cpp.o
 exec: CMakeFiles/exec.dir/build.make
 exec: User_lib/libmyUser.a
 exec: IDCard_lib/libmyIDCard.a
+exec: Shape_lib/libmyShape.a
+exec: Circle_lib/libmyCircle.a
+exec: Rectangle_lib/libmyRectangle.a
+exec: Square_lib/libmySquare.a
 exec: CMakeFiles/exec.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cipi/documents/AN-4/paoo/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable exec"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exec.dir/link.txt --verbose=$(VERBOSE)

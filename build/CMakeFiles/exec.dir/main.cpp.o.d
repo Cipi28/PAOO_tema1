@@ -414,4 +414,10 @@ CMakeFiles/exec.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/cipi/documents/AN-4/paoo/project/src/User_lib/User.h \
-  /Users/cipi/documents/AN-4/paoo/project/src/IDCard_lib/IDCard.h
+  /Users/cipi/documents/AN-4/paoo/project/src/IDCard_lib/IDCard.h \
+  /Users/cipi/documents/AN-4/paoo/project/src/Circle_lib/Circle.h \
+  /Users/cipi/documents/AN-4/paoo/project/src/Circle_lib/../Shape_lib/Shape.h \
+  /Users/cipi/documents/AN-4/paoo/project/src/Rectangle_lib/Rectangle.h \
+  /Users/cipi/documents/AN-4/paoo/project/src/Rectangle_lib/../Shape_lib/Shape.h \
+  /Users/cipi/documents/AN-4/paoo/project/src/Square_lib/Square.h \
+  /Users/cipi/documents/AN-4/paoo/project/src/Square_lib/../Rectangle_lib/Rectangle.h

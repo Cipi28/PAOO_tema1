@@ -41,6 +41,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/cipi/documents/AN-4/paoo/project/build/User_lib/cmake_install.cmake")
   include("/Users/cipi/documents/AN-4/paoo/project/build/IDCard_lib/cmake_install.cmake")
+  include("/Users/cipi/documents/AN-4/paoo/project/build/Shape_lib/cmake_install.cmake")
+  include("/Users/cipi/documents/AN-4/paoo/project/build/Circle_lib/cmake_install.cmake")
+  include("/Users/cipi/documents/AN-4/paoo/project/build/Rectangle_lib/cmake_install.cmake")
+  include("/Users/cipi/documents/AN-4/paoo/project/build/Square_lib/cmake_install.cmake")
 
 endif()
 

@@ -155,6 +155,58 @@ myIDCard/fast:
 	$(MAKE) $(MAKESILENT) -f IDCard_lib/CMakeFiles/myIDCard.dir/build.make IDCard_lib/CMakeFiles/myIDCard.dir/build
 .PHONY : myIDCard/fast
 
+#=============================================================================
+# Target rules for targets named myShape
+
+# Build rule for target.
+myShape: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myShape
+.PHONY : myShape
+
+# fast build rule for target.
+myShape/fast:
+	$(MAKE) $(MAKESILENT) -f Shape_lib/CMakeFiles/myShape.dir/build.make Shape_lib/CMakeFiles/myShape.dir/build
+.PHONY : myShape/fast
+
+#=============================================================================
+# Target rules for targets named myCircle
+
+# Build rule for target.
+myCircle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myCircle
+.PHONY : myCircle
+
+# fast build rule for target.
+myCircle/fast:
+	$(MAKE) $(MAKESILENT) -f Circle_lib/CMakeFiles/myCircle.dir/build.make Circle_lib/CMakeFiles/myCircle.dir/build
+.PHONY : myCircle/fast
+
+#=============================================================================
+# Target rules for targets named myRectangle
+
+# Build rule for target.
+myRectangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myRectangle
+.PHONY : myRectangle
+
+# fast build rule for target.
+myRectangle/fast:
+	$(MAKE) $(MAKESILENT) -f Rectangle_lib/CMakeFiles/myRectangle.dir/build.make Rectangle_lib/CMakeFiles/myRectangle.dir/build
+.PHONY : myRectangle/fast
+
+#=============================================================================
+# Target rules for targets named mySquare
+
+# Build rule for target.
+mySquare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mySquare
+.PHONY : mySquare
+
+# fast build rule for target.
+mySquare/fast:
+	$(MAKE) $(MAKESILENT) -f Square_lib/CMakeFiles/mySquare.dir/build.make Square_lib/CMakeFiles/mySquare.dir/build
+.PHONY : mySquare/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -188,7 +240,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... exec"
+	@echo "... myCircle"
 	@echo "... myIDCard"
+	@echo "... myRectangle"
+	@echo "... myShape"
+	@echo "... mySquare"
 	@echo "... myUser"
 	@echo "... main.o"
 	@echo "... main.i"
